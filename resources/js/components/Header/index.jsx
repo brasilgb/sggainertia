@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
+import NavBar from '../NavBar';
 
 const Header = () => {
   return(
       <Fragment>
           <div className='bg-gray-400'>
-              <h1>Header</h1>
+              <NavBar/>
           </div>
           
       </Fragment>
